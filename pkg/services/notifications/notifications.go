@@ -8,12 +8,12 @@ import (
 	"net/url"
 	"path/filepath"
 
-	"github.com/grafana/grafana/pkg/bus"
-	"github.com/grafana/grafana/pkg/events"
-	"github.com/grafana/grafana/pkg/log"
-	m "github.com/grafana/grafana/pkg/models"
-	"github.com/grafana/grafana/pkg/setting"
-	"github.com/grafana/grafana/pkg/util"
+	"github.com/ndimas/grafana/pkg/bus"
+	"github.com/ndimas/grafana/pkg/events"
+	"github.com/ndimas/grafana/pkg/log"
+	m "github.com/ndimas/grafana/pkg/models"
+	"github.com/ndimas/grafana/pkg/setting"
+	"github.com/ndimas/grafana/pkg/util"
 )
 
 var mailTemplates *template.Template

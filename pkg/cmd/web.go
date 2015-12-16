@@ -10,11 +10,11 @@ import (
 
 	"github.com/Unknwon/macaron"
 
-	"github.com/grafana/grafana/pkg/api"
-	"github.com/grafana/grafana/pkg/api/static"
-	"github.com/grafana/grafana/pkg/log"
-	"github.com/grafana/grafana/pkg/middleware"
-	"github.com/grafana/grafana/pkg/setting"
+	"github.com/ndimas/grafana/pkg/api"
+	"github.com/ndimas/grafana/pkg/api/static"
+	"github.com/ndimas/grafana/pkg/log"
+	"github.com/ndimas/grafana/pkg/middleware"
+	"github.com/ndimas/grafana/pkg/setting"
 )
 
 func newMacaron() *macaron.Macaron {

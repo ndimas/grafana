@@ -7,12 +7,12 @@ import (
 	"path/filepath"
 	"strings"
 
-	"github.com/grafana/grafana/pkg/bus"
-	"github.com/grafana/grafana/pkg/log"
-	m "github.com/grafana/grafana/pkg/models"
-	"github.com/grafana/grafana/pkg/services/sqlstore/migrations"
-	"github.com/grafana/grafana/pkg/services/sqlstore/migrator"
-	"github.com/grafana/grafana/pkg/setting"
+	"github.com/ndimas/grafana/pkg/bus"
+	"github.com/ndimas/grafana/pkg/log"
+	m "github.com/ndimas/grafana/pkg/models"
+	"github.com/ndimas/grafana/pkg/services/sqlstore/migrations"
+	"github.com/ndimas/grafana/pkg/services/sqlstore/migrator"
+	"github.com/ndimas/grafana/pkg/setting"
 
 	_ "github.com/go-sql-driver/mysql"
 	"github.com/go-xorm/xorm"

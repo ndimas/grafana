@@ -7,8 +7,8 @@ import (
 	"strings"
 	"time"
 
-	"github.com/grafana/grafana/pkg/log"
-	m "github.com/grafana/grafana/pkg/models"
+	"github.com/ndimas/grafana/pkg/log"
+	m "github.com/ndimas/grafana/pkg/models"
 )
 
 type JsonDashIndex struct {

@@ -1,9 +1,9 @@
 package api
 
 import (
-	"github.com/grafana/grafana/pkg/api/dtos"
-	"github.com/grafana/grafana/pkg/middleware"
-	"github.com/grafana/grafana/pkg/setting"
+	"github.com/ndimas/grafana/pkg/api/dtos"
+	"github.com/ndimas/grafana/pkg/middleware"
+	"github.com/ndimas/grafana/pkg/setting"
 )
 
 func setIndexViewData(c *middleware.Context) error {

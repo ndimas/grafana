@@ -1,12 +1,12 @@
 package api
 
 import (
-	"github.com/grafana/grafana/pkg/api/dtos"
-	"github.com/grafana/grafana/pkg/bus"
-	"github.com/grafana/grafana/pkg/metrics"
-	"github.com/grafana/grafana/pkg/middleware"
-	m "github.com/grafana/grafana/pkg/models"
-	"github.com/grafana/grafana/pkg/util"
+	"github.com/ndimas/grafana/pkg/api/dtos"
+	"github.com/ndimas/grafana/pkg/bus"
+	"github.com/ndimas/grafana/pkg/metrics"
+	"github.com/ndimas/grafana/pkg/middleware"
+	m "github.com/ndimas/grafana/pkg/models"
+	"github.com/ndimas/grafana/pkg/util"
 )
 
 func AdminCreateUser(c *middleware.Context, form dtos.AdminCreateUserForm) {

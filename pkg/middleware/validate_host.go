@@ -4,7 +4,7 @@ import (
 	"strings"
 
 	"github.com/Unknwon/macaron"
-	"github.com/grafana/grafana/pkg/setting"
+	"github.com/ndimas/grafana/pkg/setting"
 )
 
 func ValidateHostHeader(domain string) macaron.Handler {

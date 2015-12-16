@@ -3,13 +3,13 @@ package api
 import (
 	"strconv"
 
-	"github.com/grafana/grafana/pkg/bus"
-	"github.com/grafana/grafana/pkg/log"
-	"github.com/grafana/grafana/pkg/middleware"
-	m "github.com/grafana/grafana/pkg/models"
-	"github.com/grafana/grafana/pkg/plugins"
-	"github.com/grafana/grafana/pkg/setting"
-	"github.com/grafana/grafana/pkg/util"
+	"github.com/ndimas/grafana/pkg/bus"
+	"github.com/ndimas/grafana/pkg/log"
+	"github.com/ndimas/grafana/pkg/middleware"
+	m "github.com/ndimas/grafana/pkg/models"
+	"github.com/ndimas/grafana/pkg/plugins"
+	"github.com/ndimas/grafana/pkg/setting"
+	"github.com/ndimas/grafana/pkg/util"
 )
 
 func getFrontendSettingsMap(c *middleware.Context) (map[string]interface{}, error) {

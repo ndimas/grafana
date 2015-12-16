@@ -3,8 +3,8 @@ package api
 import (
 	"strings"
 
-	"github.com/grafana/grafana/pkg/middleware"
-	"github.com/grafana/grafana/pkg/setting"
+	"github.com/ndimas/grafana/pkg/middleware"
+	"github.com/ndimas/grafana/pkg/setting"
 )
 
 func AdminGetSettings(c *middleware.Context) {
