@@ -1,6 +1,6 @@
 [run]
 init_cmds = [
-  ["go", "build", "-o", "./bin/grafana-server"],
+  ["go", "run", "main.go"],
 	["./bin/grafana-server"]
 ]
 watch_all = true
