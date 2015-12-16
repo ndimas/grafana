@@ -8,6 +8,8 @@
 Grafana is an open source, feature rich metrics dashboard and graph editor for
 Graphite, Elasticsearch, OpenTSDB, Prometheus and InfluxDB.
 
+This is a custom oauth integration attemp.
+
 ![](http://grafana.org/assets/img/start_page_bg.png)
 
 - [Install instructions](http://docs.grafana.org/installation/)
