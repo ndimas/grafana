@@ -9,8 +9,10 @@ var (
 	M_Page_Status_200 = NewComboCounterRef("page.status.200")
 	M_Page_Status_500 = NewComboCounterRef("page.status.500")
 	M_Page_Status_404 = NewComboCounterRef("page.status.404")
+	M_Page_Status_401 = NewComboCounterRef("page.status.401")
 
 	M_Api_Status_500 = NewComboCounterRef("api.status.500")
+	M_Api_Status_401 = NewComboCounterRef("api.status.401")
 	M_Api_Status_404 = NewComboCounterRef("api.status.404")
 
 	M_Api_User_SignUpStarted   = NewComboCounterRef("api.user.signup_started")

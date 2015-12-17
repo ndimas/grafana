@@ -86,6 +86,9 @@ func ApiError(status int, message string, err error) *NormalResponse {
 	}
 
 	switch status {
+	case 401:
+		metrics.M_Api_Status_401.Inc(1)
+		resp["message"] = "Not Authorized"
 	case 404:
 		metrics.M_Api_Status_404.Inc(1)
 		resp["message"] = "Not Found"
